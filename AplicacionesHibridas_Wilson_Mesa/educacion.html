@@ -5,34 +5,73 @@
     <title></title>
   </head>
   <body>
-    <img src="LOGO.jpg" width="150px"></img>
+    <img src="images/LOGO.jpg" width="150px"></img>
       <h1>HOJA DE VIDA</h1>
-      <h3>Nombres:</h3>
-      <h2>Wilson Leonardo</h2>
-      <h3>Apellidos:</h3>
-      <h2>Mesa Fernandez</h2>
-      <h3>Fecha y lugar de nacimiento:</h3>
-      <h2>Duitama, 22 octubre 1989</h2>
-        <nav>
-            <a>Educación</a>
-            |
-            <a>Experiencia</a>
-        </nav>
-      <h2>INFORMACION PERSONAL</h2>
-      <img src="imagenperfil.jpg" width="300px"></img>
-      <p>Soy ingeniero mecanico, piloto e instructor de Cessna C-208 "Caravan", me encuentro altamente motivado a
-         aprender sobre el desarrollo de paginas WEB, APPS MOVILES y estrategias de MARKETING ONLINE porque
-         pienso que son grandes herramientas para el desarrollo de ideas que pueden ayudar a millones de
-         personas en el mundo.
-         Como piloto de aeronaves de ala fija he acumulado 2000 horas de vuelo y mas de 500 horas impartiendo instruccion
-         en tierra y en vuelo. <br/>
-         Idiomas que comprendo, hablo y escribo:
-          <ul>
-            <li>Español</li>
-            <li>Ingles</li>
-          </ul>
-      </p>
+          <h3>Nombres:</h3>
+        <h2>Wilson Leonardo</h2>
+          <h3>Apellidos:</h3>
+        <h2>Mesa Fernandez</h2>
+          <h3>Fecha y lugar de nacimiento:</h3>
+        <h2>Duitama, 22 octubre 1989</h2>
+    <nav>
+        <a href="index.html">Inicio</a>
+        |
+        <a href="educacion.html">Educación</a>
+        |
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+        <h2>EDUCACION</h2>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Instituciòn</th>
+                <th>Lugar</th>
+                <th>¿Culmino?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2006</td>
+                <td>ITIRR</td>
+                <td>DUITAMA</td>
+                <td>SI</td>
+              </tr>
+              <tr>
+                <td>2011</td>
+                <td>EMAVI</td>
+                <td>CALI</td>
+                <td>SI</td>
+              </tr>
+              <tr>
+                <td>2017</td>
+                <td>EMAVI</td>
+                <td>CALI</td>
+                <td>SI</td>
+              </tr>
+            </tbody>
+          </table>
+          <form autocomplete="on" name="Estudios">
+            <fieldset>
+              <legend>Agregar Estudios</legend>
+                <label for="año">AÑO:</label>
+                  <select id="año">
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                  </select>
+                <label for="institucion">Institucion:</label>
+                  <input id="institucion" type="text" placeholder="Next U"required>
+                <label for="Lugar">Lugar:</label>
+                  <input id="Lugar" type="text" maxlength="50">
+                <input type="submit">
+            </fieldset>
+          </form>
 
-      <footer>Contacto: celular:3137026517 | email: wilmesa_22@hotmail.com</footer>
+    <footer>Contacto: celular:3137026517 | email: wilmesa_22@hotmail.com</footer>
   </body>
 </html>
